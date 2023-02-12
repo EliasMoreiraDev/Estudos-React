@@ -1,0 +1,22 @@
+:root{
+    --baje: #EFA14B;
+    --azul: #3382c1;
+  }
+.btn{
+    background-color: var(--azul);
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+    color: white;
+
+    border: none;
+
+    font-size: 14pt;
+
+    margin-left: 220px;
+    
+}
+.btn:hover{
+    background-color: #005aa3;
+}
