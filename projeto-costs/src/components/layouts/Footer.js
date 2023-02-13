@@ -14,7 +14,6 @@ function Footer(){
                 </a>
                 </nav>
             </div>
-          
         </footer>
     )
 }

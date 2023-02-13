@@ -2,7 +2,7 @@ import { FaLongArrowAltUp } from 'react-icons/fa'
 import styles from './Home.module.css'
 import logo from '../../imagens/Logo-Nav.png'
 import img from '../../imagens/prediomoeda.png'
-import { Link } from 'react-router-dom'
+import LinkButton from '../layouts/LinkButton'
 function Home(){
     return(
         <section className={styles.caixaConteudo}>
@@ -10,7 +10,7 @@ function Home(){
             <div>
                 <h1>Bem vindo ao <img src={logo} alt="Logo costs"/></h1>
                 <p>Comece seus projetos agora mesmo!</p>
-                <Link to='/newProject' className={styles.botaoCriar}>Criar Projeto</Link>
+                <LinkButton to='/newProject' text='Criar projeto'/>
             </div>
            
             

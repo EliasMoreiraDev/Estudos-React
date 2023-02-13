@@ -18,7 +18,7 @@ function NavBar(){
                 {styles.menu}>
                     <Link className={styles.item} to='/'>Home</Link>
     
-                    <Link className={styles.item} to='/Project'>Projeto</Link>
+                    <Link className={styles.item} to='/projects'>Projeto</Link>
                     <Link className={styles.item} to='/company'>Empresa</Link>
                     <Link className={styles.item} to='/contact'>Contato</Link>
                 </div>

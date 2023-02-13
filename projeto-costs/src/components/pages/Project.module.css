@@ -1,0 +1,19 @@
+.project_container{
+    padding: 2em;
+}
+.title_container{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 auto 2em auto;
+    
+}
+.projects{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
