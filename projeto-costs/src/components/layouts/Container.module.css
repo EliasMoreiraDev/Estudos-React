@@ -1,4 +1,5 @@
 .container{
+    
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -6,8 +7,9 @@
     flex-wrap: wrap;
 }
 .min-heigth{
-    min-height: 75vh;
+    min-height: 77.4vh;
 }
+
 .start{
     justify-content: flex-start;
 }
