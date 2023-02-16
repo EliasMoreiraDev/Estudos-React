@@ -12,6 +12,7 @@
     color: #155724;
     background-color: #D4EDDA;
     border-color: #C3E6CB;
+    transition-delay: 1.5s;
 }
 .error{
     color: #721C24;

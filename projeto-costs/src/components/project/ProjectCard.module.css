@@ -49,6 +49,7 @@
     font-size: 1.3em;
 
     margin-bottom: 1.3em;
+    
 }
 
 .project_card p{
@@ -94,6 +95,43 @@
 .project_card_actions a,
 .project_card_actions button{
     text-decoration: none;
-    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.176);
     
+
+    font-size: 0.9em;
+    font-weight: bolder;
+
+    padding: .6em 1em;
+    margin-right: 1em;
+
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+}
+.project_card_actions a{
+    color: #38a358;
+
+    
+    background-color: #d4ffe0;
+
+}
+.project_card_actions button{
+    color: #d22b2b;
+
+    background-color: #ffdede;
+
+}
+.project_card_actions a:hover{
+    color: #256f3b;
+
+    background-color: #8affab;
+}
+.project_card_actions button:hover{
+    color: #b32727;
+
+    background-color: #fea7a7;
+}
+.project_card svg{
+    margin-right: .5em;
 }
