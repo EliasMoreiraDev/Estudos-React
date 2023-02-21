@@ -35,10 +35,7 @@
     padding: 1em;
     border-radius: 5px;
 
-   border: 2px solid var(--azul);
-
-   
-
+    border: 2px solid var(--azul);
 }
 .project_card h4{
     background-color: var(--baje);
@@ -134,4 +131,7 @@
 }
 .project_card svg{
     margin-right: .5em;
+}
+.service_card_remove{
+    justify-content: flex-end;
 }

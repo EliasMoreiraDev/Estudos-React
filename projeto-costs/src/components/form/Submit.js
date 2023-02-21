@@ -4,7 +4,7 @@ function Submit({text}){
 
     return(
         
-            <button className={styles.btn} type='submit'>{text}</button>
+            <div className={styles.container_btn}><button className={styles.btn} type='submit'>{text}</button></div>
         
     )
 }

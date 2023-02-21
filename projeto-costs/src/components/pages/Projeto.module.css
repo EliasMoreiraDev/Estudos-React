@@ -1,7 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 :root{
     --baje: #EFA14B;
     --azul: #3382c1;
   }
+@media screen and (min-width: 531px){
+    .title_container, .title_service_form{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    
+        margin-bottom: 20px;
+    }
+   
+}
+@media screen and (max-width: 530px){
+    .title_container, .title_service_form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    
+        margin-bottom: 20px;
+    }
+    
+    
+}
 
 .project_details{
     padding: 2em;
@@ -11,25 +36,25 @@
 .project_details h2,
 .project_details p{
     margin-bottom: .5em;
+    
 }
 .project_details h1{
     background-color: var(--baje);
     color: white;
-    padding: 10px;
+    padding: 14px;
     font-size: 27pt;
+    border-radius: 10px;
 }
 .project_details span{
     font-weight: bold;
 
 }
-.details_container,.service_form_container{
+
+.details_container, .service_form_container{
     border-bottom: 1px solid #7a7a7a;
     margin-bottom: 1.2em;
     padding-bottom: 1.2em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    
 }
 .btn{
     padding: 12px;
@@ -52,4 +77,30 @@
 }
 .project_info{
     width: 100%;
+}
+.title_service_form h2, .title_container_services{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 19pt;
+    
+}
+.container_services{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+}
+.container_no_services{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+}
+.no_services{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.338);
+    font-family: 'Quicksand', sans-serif;
 }

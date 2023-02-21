@@ -2,6 +2,12 @@
     --baje: #EFA14B;
     --azul: #3382c1;
   }
+
+.container_btn{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+}
 .btn{
     background-color: var(--azul);
     padding: 10px;
@@ -14,8 +20,7 @@
 
     font-size: 14pt;
 
-    margin-left: 220px;
-    
+   
 }
 .btn:hover{
     background-color: #005aa3;
